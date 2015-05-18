@@ -1,0 +1,323 @@
+header
+{
+	height: 45px;
+	width: 98%;
+	background-color:#f9f9f9;
+	border: 1px solid #ececec;
+	padding:1%;
+	box-shadow: 0 3px 3px #ccc;
+	position:fixed;
+	margin-top:-0.6%;
+	margin-left:-0.5%;
+	padding:1%;
+}
+
+body
+{
+	font-family: Lucida Sans Unicode, Lucida Grande, sans-serif;
+	font-size:14px;
+	
+}
+section#logo
+{
+	
+	width:15%;
+	height:45px;
+	
+	float:left;
+}
+section#menu
+{
+	
+	width:43%;
+	height:45px;
+	float:right;
+}
+	
+section#aboutus_backcontainer
+{
+	width: 100.2%;
+	background-repeat: no-repeat;
+	background-position: top center;
+	background-size: cover;
+	height: 140px;
+	
+	background-image:url(../images/sliderbg.jpg);
+	clear:both;
+	
+}
+section#aboutus_header
+{
+	width:80%;
+	margin:auto;
+	height:100px;
+}
+
+h1#aboutustext
+{
+	
+	color:#555555;
+	display: block;
+	font-family: arial, Arial, Helvetica, sans-serif;
+	font-size: 22px;
+	font-weight: bold;
+	line-height: 36px;
+	margin-bottom: 4px;
+	padding-top: 40px;
+	font-size:1.6em;
+	font-weight:100;
+	font-stretch:wider;
+}
+
+section#aboutus_infobground
+{
+	width: 96%;
+	height: 650px;
+	color: #F5F5F5;
+	clear:both;
+	border: 1px solid #ececec;
+	background-color:#f5f5f5;
+	padding:2%
+}
+section#leftteampic
+{
+	float:left;
+	width:38%;
+	height:280px;
+	margin-left:5%;
+}
+section#abouttext_descript
+{
+	float:right;
+	width:48%;
+	height:250px;
+	margin-right:9%;
+}
+
+h1
+{
+	font-family:Arial, Helvetica, sans-serif;
+}
+	
+
+h2
+{
+	font-family: Lucida Sans Unicode, Lucida Grande, sans-serif;
+	color:#f58143;
+	
+}
+h4
+{
+	font-family: Lucida Sans Unicode, Lucida Grande, sans-serif;
+	color:#092f40;
+	
+}
+
+
+p
+{
+	font-family: Lucida Sans Unicode, Lucida Grande, sans-serif;
+	text-align:justify;
+	text-justify:auto;
+	font-size:14px;
+}
+section.tables
+{
+	width:83%;
+	margin:auto;
+	height:330px;
+	clear:both;
+	
+	padding-top:1%;
+}
+table
+{
+	width:100%;
+	border:0px;
+	color:black;
+}
+tr
+{
+	width:20%;
+	height:10px;
+	border: 1px solid #ececec;
+	padding:1%;
+}
+td
+{
+	width:10%;
+	height:10px;
+	border: 1px solid #e2e2e2;
+	background-color: #fff;
+	
+	padding:1.5%;
+	text-align:center;
+}
+
+
+section#sponsers
+{
+	height: auto;
+	width: 96%;
+	margin-top: 0px;
+	background-color: #f8f8f8;
+	border: 1px solid #e2e2e2;
+	padding: 2% 2%;
+	
+}
+
+
+/*This is the start of  the whole footer part*/
+footer
+{
+	width:97%;
+	height:55px;
+	background-color:#092f40;
+	margin:auto;
+	padding:2%;
+	clear:both;
+	margin-left:-0.6%;
+	font-family: Lucida Sans Unicode, Lucida Grande, sans-serif;
+	
+}
+
+
+section#footerleft
+{
+	width:20%;
+	height:80px;
+	float:left;
+	background-color:#092f40;
+	
+}
+
+section#footermid
+{
+	width:59%;
+	height:80px;
+	float:left;
+	background-color:#092f40;
+	color:white;
+	
+}
+section#footerright
+{
+	width:20%;
+	height:48px;
+	float:right;
+	background-color:#092f40;
+}
+
+
+	
+
+
+section#social-slide, #social-slide1,#social-slide2
+{
+	
+	
+	height: 48px;
+	width: 48px;
+
+	float: right;
+	-webkit-transition: all ease 0.3s;
+	-moz-transition: all ease 0.3s;
+	-o-transition: all ease 0.3s;
+	-ms-transition: all ease 0.3s;
+	transition: all ease 0.3s;
+}
+#social-slide:hover, #social-slide1:hover ,#social-slide2:hover  
+{
+	background-position: 0px -48px;
+	box-shadow: 0px 0px 4px 1px rgba(0,0,0,0.8);
+}
+section#social-slide
+{
+	background-image:url(../images/icons/facebook.png);
+	float:
+}
+section#social-slide1
+{
+	background-image:url(../images/icons/twitter.png);
+}
+section#social-slide2
+{
+	background-image:url(../images/icons/google.png);
+}
+
+
+
+/*This is  the end of the whole footer part*/
+
+
+
+section#back-to-top
+{
+	position: fixed;
+	z-index: 1000;
+	bottom: 20px;
+	right: 20px;
+	display: none;
+}
+#back-to-top a {
+	display: block;
+	border:none;
+	width: 30px;
+	height: 30px;
+	background: rgba(0,0,0,0.5) url(../images/backtotop.png) no-repeat center center;
+	text-indent: -9999px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	
+	/*  -transition: property_name duration timing_function delay;   */
+	/* ease − equivalent to cubic-bezier(0.25, 0.1, 0.25, 1.0). */
+	-webkit-transition: all ease 0.3s;
+	-moz-transition: all ease 0.3s;
+	-o-transition: all ease 0.3s;
+	-ms-transition: all ease 0.3s;
+	transition: all ease 0.3s;
+
+	background-attachment: scroll;
+	background-clip: border-box;
+	background-color: 
+}
+
+
+section#headperson_message
+{
+	width: 78%;
+	height:200px;
+	margin:auto;
+	margin-top:1%;
+	margin-bottom:1%;
+	clear:both;
+	padding: 20px;
+	border: 1px solid #e2e2e2;
+	background-color: #fff;
+	box-shadow: 0 0 5px #ccc;
+}
+section#aboutus_intro
+{
+	width:80%;
+	padding-left:10%;
+	padding-right:10%;
+	height:100px;
+	background: #FFFFFF;
+	background-image: linear-gradient(bottom, #FAFAFA 0%, #FFFFFF 100%);
+	background-image: -o-linear-gradient(bottom, #FAFAFA 0%, #FFFFFF 100%);
+	background-image: -moz-linear-gradient(bottom, #FAFAFA 0%, #FFFFFF 100%);
+	background-image: -webkit-linear-gradient(bottom, #FAFAFA 0%, #FFFFFF 100%);
+	background-image: -ms-linear-gradient(bottom, #FAFAFA 0%, #FFFFFF 100%);
+	border-bottom: 1px solid #e4e4e4;
+	border-top: 1px solid #e4e4e4;
+}
+section#decoration
+{
+	height: 8px;
+	width: 100%;
+	background-image:url(../images/stripes.png);
+	margin-top: 0px;
+	
+}
+

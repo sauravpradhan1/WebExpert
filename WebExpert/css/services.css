@@ -1,0 +1,336 @@
+header
+{
+	height: 45px;
+	width: 98%;
+	background-color:#f9f9f9;
+	border: 1px solid #ececec;
+	padding:1%;
+	box-shadow: 0 3px 3px #ccc;
+	position:fixed;
+	margin-top:-0.6%;
+	margin-left:-0.5%;
+	padding:1%;
+}
+
+
+body
+{
+	font-family: Lucida Sans Unicode, Lucida Grande, sans-serif;
+	text-align:justify;
+	background-color:#f5f5f5;
+	font-size:14px;
+	
+}
+section#logo
+{
+	
+	width:15%;
+	height:45px;
+	
+	float:left;
+}
+section#menu
+{
+	
+	width:43%;
+	height:45px;
+	float:right;
+}
+	
+h1
+{
+	font-family: Droid Sans,sans-serif;
+	color:#f58143;
+	
+}
+h2
+{
+	font-family: Lucida Sans Unicode, Lucida Grande, sans-serif;
+	color:#f58143;
+	
+}
+h4
+{
+	font-family: arial, Arial, Helvetica, sans-serif;
+	color:#092f40;
+	
+}
+p#first
+{
+	font-family: arial, Arial, Helvetica, sans-serif;
+	alignment-adjust:central;
+}
+
+p
+{
+	font-family: Lucida Sans Unicode, Lucida Grande, sans-serif;
+	text-align:justify;
+	font-size:14px;
+}
+
+
+section#Branddevelop_txt,section#webdesigning_txt,section#digitalmarketing_txt,section#web_email_txt
+{
+	width: 100%;
+	height:550px;
+	margin:auto;
+	margin-top:1%;
+	margin-bottom:1%;
+	clear:both;
+	padding: 2%;
+	border: 1px solid #e2e2e2;
+	background-color: #fff;
+	box-shadow: 0 0 5px #ccc;
+	
+}
+section#webdesigning_txt
+{
+	height:450px;
+}
+
+section#digitalmarketing_txt
+{
+	width:100%;
+	margin:auto; 
+	border-top:1px solid #ccc; 
+	border-bottom:1px solid #ccc;
+    padding-top:2%; 
+	padding-bottom:2%; 
+	margin-bottom:2%;
+	text-align:justify;
+	height:500px;
+}
+section#web_email_txt
+{
+	height:520px;
+}
+section#decoration
+{
+	height: 8px;
+	width: 100%;
+	background: url(images/stripes.png);
+	margin-top: 0px;
+	
+}
+
+
+/*rolling social icons*/
+section#social-slide 
+{
+	
+	background-image:url(../images/icons/facebook.png);
+	height: 38px;
+	width: 38px;
+	margin: 10px;
+	padding:1%;
+	float: left;
+	-webkit-transition: all ease 0.3s;
+	-moz-transition: all ease 0.3s;
+	-o-transition: all ease 0.3s;
+	-ms-transition: all ease 0.3s;
+	transition: all ease 0.3s;
+}
+#social-slide:hover 
+{
+	background-position: 0px -48px;
+	box-shadow: 0px 0px 4px 1px rgba(0,0,0,0.8);
+}
+#social-slide1 
+{
+	background-image:url(../images/icons/google.png);
+	height: 38px;
+	width: 38px;
+	margin: 10px;
+	float: left;
+	padding:1%;
+	-webkit-transition: all ease 0.3s;
+	-moz-transition: all ease 0.3s;
+	-o-transition: all ease 0.3s;
+	-ms-transition: all ease 0.3s;
+	transition: all ease 0.3s;
+}
+#social-slide1:hover 
+{
+	background-position: 0px -48px;
+	box-shadow: 0px 0px 4px 1px rgba(0,0,0,0.8);
+}
+#social-slide2 
+{
+	background-image:url(../images/icons/twitter.png);
+	height: 38px;
+	width: 38px;
+	margin: 10px;
+	padding:1%;
+	float: left;
+	-webkit-transition: all ease 0.3s;
+	-moz-transition: all ease 0.3s;
+	-o-transition: all ease 0.3s;
+	-ms-transition: all ease 0.3s;
+	transition: all ease 0.3s;
+}
+#social-slide2:hover 
+{
+	background-position: 0px -48px;
+	box-shadow: 0px 0px 4px 1px rgba(0,0,0,0.8);
+}
+/*end of the rollig social icons*/
+
+
+section#serviceintro
+{
+	width:100%;
+	height:200px;
+	border-top: 1px solid #e4e4e4;
+	clear:both;
+	background: #FFFFFF;
+	background-image: linear-gradient(bottom, #FAFAFA 0%, #FFFFFF 100%);
+	background-image: -o-linear-gradient(bottom, #FAFAFA 0%, #FFFFFF 100%);
+	background-image: -moz-linear-gradient(bottom, #FAFAFA 0%, #FFFFFF 100%);
+	background-image: -webkit-linear-gradient(bottom, #FAFAFA 0%, #FFFFFF 100%);
+	background-image: -ms-linear-gradient(bottom, #FAFAFA 0%, #FFFFFF 100%);
+	border-bottom: 1px solid #e4e4e4;
+	border-top: 1px solid #e4e4e4;
+
+}
+section#text
+{
+	width:80%;
+	height:150px;
+	margin-top:2%;
+	margin-bottom:2%;
+	margin:auto;
+	background-color:#f9f9f9;
+	border: 1px solid #ececec;
+	padding-left:10%;
+	padding-right:10%;
+
+
+}
+div.multi-column
+{
+	column-count:2;-webkit-column-count:2;
+	text-align:justify;	
+}
+	
+section#decoration
+{
+	height: 8px;
+	width: 100%;
+	background-image:url(../images/stripes.png);
+	margin-top: 0px;
+	clear:both;
+	
+}
+	
+section#back-to-top
+{
+	position: fixed;
+	/* link is above all other elements */
+	z-index: 1000;
+	bottom: 20px;
+	right: 20px;
+	display: none;
+}
+#back-to-top a {
+	display: block;
+	width: 30px;
+	height: 30px;
+	border:none;
+	background: rgba(0,0,0,0.5) url(../images/backtotop.png) no-repeat center center;
+	text-indent: -9999px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	-webkit-transition: all ease 0.3s;
+	-moz-transition: all ease 0.3s;
+	-o-transition: all ease 0.3s;
+	-ms-transition: all ease 0.3s;
+	transition: all ease 0.3s;
+	background-attachment: scroll;
+	background-clip: border-box;
+	background-color: 
+}
+
+/*This is the start of  the whole footer part*/
+footer
+{
+	width:97%;
+	height:55px;
+	background-color:#092f40;
+	margin:auto;
+	padding:2%;
+	clear:both;
+	margin-left:-0.6%;
+	font-family: Lucida Sans Unicode, Lucida Grande, sans-serif;
+	
+}
+
+
+section#footerleft
+{
+	width:20%;
+	height:80px;
+	float:left;
+	background-color:#092f40;
+	
+}
+
+section#footermid
+{
+	width:59%;
+	height:80px;
+	float:left;
+	background-color:#092f40;
+	color:white;
+	
+}
+section#footerright
+{
+	width:20%;
+	height:48px;
+	float:right;
+	background-color:#092f40;
+}
+
+
+	
+
+
+section#social-slide, #social-slide1,#social-slide2
+{
+	
+	
+	height: 48px;
+	width: 48px;
+
+	float: right;
+	/*  -transition: property_name duration timing_function delay;   */
+	/* ease − equivalent to cubic-bezier(0.25, 0.1, 0.25, 1.0). */
+	-webkit-transition: all ease 0.3s;
+	-moz-transition: all ease 0.3s;
+	-o-transition: all ease 0.3s;
+	-ms-transition: all ease 0.3s;
+	transition: all ease 0.3s;
+}
+#social-slide:hover, #social-slide1:hover ,#social-slide2:hover  
+{
+	background-position: 0px -48px;
+	box-shadow: 0px 0px 4px 1px rgba(0,0,0,0.8);
+}
+section#social-slide
+{
+	background-image:url(../images/icons/facebook.png);
+	float:
+}
+section#social-slide1
+{
+	background-image:url(../images/icons/twitter.png);
+}
+section#social-slide2
+{
+	background-image:url(../images/icons/google.png);
+}
+
+
+
+/*This is  the end of the whole footer part*/

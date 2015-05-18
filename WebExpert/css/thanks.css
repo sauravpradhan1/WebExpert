@@ -1,0 +1,55 @@
+
+
+body
+{
+	font-family: Lucida Sans Unicode, Lucida Grande, sans-serif;
+	font-size:14px;
+	
+}
+
+
+
+h1
+{
+	font-family:Arial, Helvetica, sans-serif;
+}
+	
+
+p
+{
+	font-family: Lucida Sans Unicode, Lucida Grande, sans-serif;
+	text-align:justify;
+	text-justify:auto;
+	font-size:14px;
+}
+
+
+
+section#bodytext
+{
+	width: 300px;
+	height:200px;
+
+	clear:both;
+	padding: 1%;
+	border: 1px solid #e2e2e2;
+	background-color: #fff;
+	
+}
+section#thanks_intro
+{
+	width:300px;
+	padding:1%;
+	height:40px;
+	background: #FFFFFF;
+	background-image: linear-gradient(bottom, #FAFAFA 0%, #FFFFFF 100%);
+	background-image: -o-linear-gradient(bottom, #FAFAFA 0%, #FFFFFF 100%);
+	background-image: -moz-linear-gradient(bottom, #FAFAFA 0%, #FFFFFF 100%);
+	background-image: -webkit-linear-gradient(bottom, #FAFAFA 0%, #FFFFFF 100%);
+	background-image: -ms-linear-gradient(bottom, #FAFAFA 0%, #FFFFFF 100%);
+	border: 1px solid #e4e4e4;
+	
+}
+section#bodytext
+{
+	

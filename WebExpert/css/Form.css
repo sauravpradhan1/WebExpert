@@ -1,0 +1,308 @@
+header
+{
+	height: 45px;
+	width: 98%;
+	background-color:#f9f9f9;
+	border: 1px solid #ececec;
+	padding:1%;
+	box-shadow: 0 3px 3px #ccc;
+	position:fixed;
+	margin-top:-0.6%;
+	margin-left:-0.5%;
+	padding:1%;
+}
+body
+{
+	font-family: Lucida Sans Unicode, Lucida Grande, sans-serif;
+	font-size:14px;
+}
+section#logo
+{
+	
+	width:15%;
+	height:45px;
+	
+	float:left;
+}
+section#menu
+{
+	
+	width:43%;
+	height:45px;
+	float:right;
+}
+	
+h1
+{
+	font-family: Droid Sans,sans-serif;
+	color:#f58143;
+	
+}
+h2
+{
+	font-family: Lucida Sans Unicode, Lucida Grande, sans-serif;
+	color:#f58143;
+	
+}
+h4
+{
+	font-family: Lucida Sans Unicode, Lucida Grande, sans-serif;
+	color:#092f40;
+	
+}
+p#first
+{
+	font-family: Lucida Sans Unicode, Lucida Grande, sans-serif;
+	alignment-adjust:central;
+}
+
+p
+{
+	font-family: Lucida Sans Unicode, Lucida Grande, sans-serif;
+	text-align:left;
+	text-justify:auto;
+	font-size:1em;
+}
+
+.social-facebook a {
+	background: url(../images/icons/facebook.png) no-repeat 0 0;
+}
+.social-skype a {
+	background: url(../images/icons/twitter.png) no-repeat 0 0;
+}
+.social-rss a {
+	background: url(../images/icons/google.png) no-repeat 0 0;
+}
+section#decoration
+{
+	height: 8px;
+	width: 100%;
+	background: url(images/stripes.png);
+	margin-top: 0px;
+	
+}
+
+section#footerleft
+{
+	width:20%;
+	height:80px;
+	float:left;
+	background-color:#092f40;
+	
+}
+
+section#footermid
+{
+	width:59%;
+	height:80px;
+	float:left;
+	background-color:#092f40;
+	color:white;
+}
+section#footerright
+{
+	width:21%;
+	height:80px;
+	float:right;
+	background-color:#092f40;
+}
+input[type="text"], input[type="password"], input[type="email"], textarea, select
+ {
+	background: #fff;
+	border: 1px solid #ccc;
+	padding: 8px 8px;
+	outline: none;
+	-moz-border-radius: 2px;
+	-webkit-border-radius: 2px;
+	border-radius: 2px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	color: #666;
+	margin: 0;
+	width: 250px;
+	max-width: 100%;
+	display: block;
+	margin-bottom: 20px;
+	height: 15px;
+	color: #999;
+	-moz-box-shadow: 0 1px 2px 0 rgba(180, 180, 180, 0.2);
+	-webkit-box-shadow: 0 1px 2px 0 rgba(180, 180, 180, 0.2);
+	box-shadow: 0 1px 2px 0 rgba(180, 180, 180, 0.2);
+	border: 1px solid #d4d4d4;
+}
+
+/*rolling social icons*/
+section#social-slide 
+{
+	
+	background-image:url(../images/icons/facebook.png);
+	height: 48px;
+	width: 48px;
+	margin: 10px;
+	
+	float: left;
+	-webkit-transition: all ease 0.3s;
+	-moz-transition: all ease 0.3s;
+	-o-transition: all ease 0.3s;
+	-ms-transition: all ease 0.3s;
+	transition: all ease 0.3s;
+}
+#social-slide:hover 
+{
+	background-position: 0px -48px;
+	box-shadow: 0px 0px 4px 1px rgba(0,0,0,0.8);
+}
+#social-slide1 
+{
+	background-image:url(../images/icons/google.png);
+	height: 48px;
+	width: 48px;
+	margin: 10px;
+	float: left;
+	
+	-webkit-transition: all ease 0.3s;
+	-moz-transition: all ease 0.3s;
+	-o-transition: all ease 0.3s;
+	-ms-transition: all ease 0.3s;
+	transition: all ease 0.3s;
+}
+#social-slide1:hover 
+{
+	background-position: 0px -48px;
+	box-shadow: 0px 0px 4px 1px rgba(0,0,0,0.8);
+}
+#social-slide2 
+{
+	background-image:url(../images/icons/twitter.png);
+	height: 48px;
+	width: 48px;
+	margin: 10px;
+	
+	float: left;
+	-webkit-transition: all ease 0.3s;
+	-moz-transition: all ease 0.3s;
+	-o-transition: all ease 0.3s;
+	-ms-transition: all ease 0.3s;
+	transition: all ease 0.3s;
+}
+#social-slide2:hover 
+{
+	background-position: 0px -48px;
+	box-shadow: 0px 0px 4px 1px rgba(0,0,0,0.8);
+}
+/*end of the rollig social icons*/
+textarea
+{
+	width:100%;
+	height:100%;
+	overflow:hidden;
+}
+section#formcontents
+{
+	width:80%;
+	height:630px;
+	margin:auto;
+	clear:both;
+	padding:2%;
+	font-family: arial, Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight: normal;
+	color: #666666;	
+}
+div#map_canvas 
+{
+	width: 80%;
+	height:300px;
+	margin:auto;
+	margin-bottom:2%;
+}
+section#formintro
+{
+	width:80%;
+	padding-left:10%;
+	padding-right:10%;
+	height:100px;
+	background: #FFFFFF;
+	background-image: linear-gradient(bottom, #FAFAFA 0%, #FFFFFF 100%);
+	background-image: -o-linear-gradient(bottom, #FAFAFA 0%, #FFFFFF 100%);
+	background-image: -moz-linear-gradient(bottom, #FAFAFA 0%, #FFFFFF 100%);
+	background-image: -webkit-linear-gradient(bottom, #FAFAFA 0%, #FFFFFF 100%);
+	background-image: -ms-linear-gradient(bottom, #FAFAFA 0%, #FFFFFF 100%);
+	border-bottom: 1px solid #e4e4e4;
+	border-top: 1px solid #e4e4e4;
+}
+
+input[type="submit"], input[type="checkbox"], select
+{
+	display: inline;
+	font-weight: bold;
+	font-family: Arial, Helvetica, sans-serif;
+	cursor: pointer;
+	margin: 0 5px 5px 0;
+	font-size: 13px;
+	line-height: 13px;
+	padding: 12px 20px;
+	border: 1px solid #ddd;
+	font-weight: bold;
+	display: inline-block;
+	background-image: linear-gradient(bottom, #F7F7F7 0%, #FFFFFF 100%);
+	background-image: -o-linear-gradient(bottom, #F7F7F7 0%, #FFFFFF 100%);
+	background-image: -moz-linear-gradient(bottom, #F7F7F7 0%, #FFFFFF 100%);
+	background-image: -webkit-linear-gradient(bottom, #F7F7F7 0%, #FFFFFF 100%);
+	background-image: -ms-linear-gradient(bottom, #F7F7F7 0%, #FFFFFF 100%);
+	background-color: #F9F9F9;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	-webkit-box-shadow: 0px 1px 1px 0px rgba(180, 180, 180, 0.2);
+	-moz-box-shadow: 0px 1px 1px 0px rgba(180, 180, 180, 0.2);
+	box-shadow: 0px 1px 1px 0px rgba(180, 180, 180, 0.2);
+}
+
+section#decoration
+{
+	height: 8px;
+	width: 100%;
+	background-image:url(../images/stripes.png);
+	margin-top: 0px;
+	
+}
+
+footer
+{
+	width:97%;
+	height:55px;
+	background-color:#092f40;
+	margin:auto;
+	padding:2%;
+	clear:both;
+	margin-left:-0.6%;
+	
+}	
+section#back-to-top
+{
+	position: fixed;
+	z-index: 1000;
+	bottom: 20px;
+	right: 20px;
+	display: none;
+}
+#back-to-top a {
+	display: block;
+	width: 30px;
+	height: 30px;
+	background: rgba(0,0,0,0.5) url(../images/backtotop.png) no-repeat center center;
+	text-indent: -9999px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	-webkit-transition: all ease 0.3s;
+	-moz-transition: all ease 0.3s;
+	-o-transition: all ease 0.3s;
+	-ms-transition: all ease 0.3s;
+	transition: all ease 0.3s;
+}
+#back-to-top a:onclick
+{
+	background-position: 0px 0px;
+}
